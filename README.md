@@ -2,7 +2,7 @@
 
 ## Descripción
 
-**App Cactus API** es un servicio backend desarrollado en **Node.js** con **Express.js**, que proporciona endpoints para la gestión de usuarios, productos y compras en una tienda de cactus. La API permite registrar usuarios, iniciar sesión, gestionar perfiles, listar productos, agregar al carrito y realizar compras usando PayPal.
+**App Cactus API** es un servicio backend desarrollado en **Node.js** con **Express.js**, que proporciona endpoints para la gestión de usuarios y productos. La API permite registrar usuarios, iniciar sesión, gestionar perfiles, CRUD y listar productos.
 
 ## URL para pruebas en producción
 
@@ -14,8 +14,6 @@
 - **Express.js**: Framework para crear la API REST.
 - **MongoDB**: Base de datos NoSQL para almacenar datos de usuarios y productos.
 - **JWT**: Autenticación y generación de tokens de sesión.
-- **bcryptjs**: Cifrado de contraseñas.
-- **PayPal SDK**: Integración de pagos.
 - **Swagger**: Documentación de la API.
 
 ## Requisitos Previos
@@ -50,7 +48,6 @@
    PORT=3000
    MONGO_URI=mongodb+srv://<usuario>:<password>@cluster.mongodb.net/app-cactus-api
    JWT_SECRET=tu_clave_secreta
-   VITE_PAYPAL_CLIENT_ID=tu_client_id_de_paypal
    ```
 
 ## Scripts Disponibles
